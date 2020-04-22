@@ -1,0 +1,33 @@
+html, body {
+  height:100%;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: 85% auto;
+  background-position:top;
+  background-color: #f2f0e7;
+  text-align: center;
+}
+
+.container{
+  text-align: center;
+}
+
+.joke{
+  font-size: 3rem;
+  font-weight: bold;
+  color: lightgrey;
+  text-shadow: 2px 2px 2px darkblue,-2px -2px 2px red;
+}
+
+.button{
+  background:darkblue;
+  padding: 10px 20px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius:10px;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 3px red,-1px -1px 3px red;
+  margin-top: 25px;
+  text-decoration:none;
+}
