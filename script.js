@@ -21,7 +21,7 @@ $(document).ready(function() {
 	var $chiste = $('#chiste')
 	$.ajax({
 		type:'GET',
-		url: 'http://api.icndb.com/jokes/random',
+		url: 'https://api.icndb.com/jokes/random',
 		success: function(data){
 		  console.log(data.value.joke)
 		  var random = randomArray[Math.floor(Math.random() * randomArray.length)];
