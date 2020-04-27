@@ -8,6 +8,18 @@ html, body {
   text-align: center;
 }
 
+#body{
+    display: flex;
+    align-content: center;
+    text-align: center;
+    opacity: 90%;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: 20% auto;
+    background-position:top;
+	background-image: url('images/serious.jpg');
+ }
+
 .container{
   text-align: center;
 }

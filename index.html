@@ -6,11 +6,11 @@
   <link rel="stylesheet" href="style.css"></link>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script type="text/javascript" src="jquery-3.5.0.min.js"></script>
-  <script type="text/javascript" src=script.js></script>
+  <script type="text/javascript" src="script.js"></script>
 
   <title>jokes!</title>
 </head>
-<body class="body1" id="body">
+<body id="body">
 
   <div class="container align-items-center" style="text-align:center; color:none">
     <!-- <h1 class="display-1"></h1> -->
@@ -20,47 +20,6 @@
       <button type="button" class="button" id="getjoke" name="button">Make Chuck Laugh</button>
     </div>
   </div>
-
-<!-- Style for Random Images -->
-
-<style media="screen">
-  .body1{
-    display: flex;
-    align-content: center;
-    text-align: center;
-    opacity: 90%;
-    background-image:url('images/serious.jpg');
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: 20% auto;
-    background-position:top;
-  }
-  .body2{
-    display: flex;
-    align-content: center;
-    text-align: center;
-    background-image:;
-    opacity: 90%;
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: 20% auto;
-    background-position:top;
-  }
-</style>
-
-<!-- Script for Random Images -->
-
-<script type="text/javascript">
-$(document).ready(function() {
-  $('#getjoke').on('click',function (){
-    var randomArray = ['random1.jpg', 'random2.jpg', 'random3.jpg', 'random4.jpg'];
-    var random = randomArray[Math.floor(Math.random() * randomArray.length)];
-    var path = 'images/';
-    $('.body2').css({'background-image':'url('+path+random+')'});
-    console.log(random);
-  })
-});
-</script>
 
 </body>
 </html>
